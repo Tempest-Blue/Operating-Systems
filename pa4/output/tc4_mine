@@ -1,0 +1,66 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 2.83 [1/25/15-05:03PM] 15301
+
+T9: 0 squared = 0
+T1: 0 squared = 0
+T2: 0 cubed = 0
+T2: 1 cubed = 1
+T2 has died
+T3: 0 squared = 0
+T4: 0 cubed = 0
+T4: 1 cubed = 1
+T4: 2 cubed = 8
+T4: 3 cubed = 27
+T4 has died
+T5: 0 squared = 0
+T6: 0 squared = 0
+T7: 0 squared = 0
+T8: 0 cubed = 0
+T8: 1 cubed = 1
+T8: 2 cubed = 8
+T8: 3 cubed = 27
+T8: 4 cubed = 64
+T8: 5 cubed = 125
+T8: 6 cubed = 216
+T8: 7 cubed = 343
+T8 has died
+T0: square = 0, cube = 343, Yield returns = 0
+T9: 1 squared = 1
+T3: 1 squared = 1
+T5: 1 squared = 1
+T6: 1 squared = 1
+T7: 1 squared = 1
+T1 has died
+T9: 2 squared = 4
+T3: 2 squared = 4
+T5: 2 squared = 4
+T6: 2 squared = 4
+T7: 2 squared = 4
+T0: square = 4, cube = 343, Yield returns = 7
+T9: 3 squared = 9
+T5: 3 squared = 9
+T6: 3 squared = 9
+T7: 3 squared = 9
+YieldThread: Thread 2 does not exist
+T0: square = 9, cube = 343, Yield returns = -1
+T9: 4 squared = 16
+T3 has died
+T5: 4 squared = 16
+T6: 4 squared = 16
+T7: 4 squared = 16
+T0: square = 16, cube = 343, Yield returns = 0
+T9: 5 squared = 25
+T6: 5 squared = 25
+T7: 5 squared = 25
+YieldThread: Thread 1 does not exist
+T0: square = 25, cube = 343, Yield returns = -1
+T9: 6 squared = 36
+T5 has died
+T7: 6 squared = 36
+T0 has died
+T9: 7 squared = 49
+T6 has died
+T9: 8 squared = 64
+T7 has died
+T9 has died
+
+System exiting (normal)

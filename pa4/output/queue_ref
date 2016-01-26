@@ -1,0 +1,457 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 2.83 [1/25/15-05:03PM] 15373
+
+Main : T1 created
+Main : T2 created
+Main : T3 created
+Main : T4 created
+Main : T5 created
+Main : T6 created
+Main : T7 created
+Main : T8 created
+Main : T9 created
+Main : T0 yielding to 4
+Thread : T4 attempt to yield to T8
+Thread : T8 attempt to yield to T6
+Thread : T6 attempt to yield to T9
+Thread : T9 attempt to yield to T0
+Main : T9 yielded back to T0
+Main : T0 exiting
+Thread : T1 scheduling
+Thread : T2 attempt to yield to T0
+YieldThread: Thread 0 does not exist
+Thread : T2 attempt to yield to T1
+Thread : T1 has returned from scheduling
+Thread : T1 spawned T0
+Thread : T1 exiting
+Thread : T3 attempt to yield to T4
+Thread : T3 yielded back to T4
+Thread : T4 spawned T1
+Thread : T4 exiting
+Thread : T5 attempt to yield to T9
+Thread : T5 yielded back to T9
+Thread : T9 spawned T4
+Thread : T9 exiting
+Thread : T7 attempt to yield to T5
+Thread : T7 yielded back to T5
+Thread : T5 spawned T9
+Thread : T5 exiting
+Thread : T5 yielded back to T8
+Thread : T8 spawned T5
+Thread : T8 exiting
+Thread : T8 yielded back to T6
+Thread : T6 exiting
+Thread : T6 yielded back to T2
+Thread : T2 exiting
+Thread : T0 attempt to yield to T8
+YieldThread: Thread 8 does not exist
+Thread : T0 attempt to yield to T7
+Thread : T0 yielded back to T7
+Thread : T7 spawned T6
+Thread : T7 exiting
+Thread : T7 yielded back to T3
+Thread : T3 spawned T7
+Thread : T3 exiting
+Thread : T1 attempt to yield to T3
+YieldThread: Thread 3 does not exist
+Thread : T1 attempt to yield to T2
+YieldThread: Thread 2 does not exist
+Thread : T1 attempt to yield to T6
+Thread : T6 attempt to yield to T0
+Thread : T6 yielded back to T0
+Thread : T0 exiting
+Thread : T4 attempt to yield to T1
+Thread : T4 yielded back to T1
+Thread : T1 spawned T8
+Thread : T1 exiting
+Thread : T9 attempt to yield to T4
+Thread : T9 yielded back to T4
+Thread : T4 spawned T0
+Thread : T4 exiting
+Thread : T5 attempt to yield to T9
+Thread : T5 yielded back to T9
+Thread : T9 exiting
+Thread : T7 attempt to yield to T5
+Thread : T7 yielded back to T5
+Thread : T5 exiting
+Thread : T5 yielded back to T6
+Thread : T6 spawned T1
+Thread : T6 exiting
+Thread : T8 scheduling
+Thread : T0 attempt to yield to T2
+YieldThread: Thread 2 does not exist
+Thread : T0 attempt to yield to T1
+Thread : T1 attempt to yield to T0
+Thread : T1 yielded back to T0
+Thread : T0 spawned T2
+Thread : T0 spawned T3
+Thread : T0 exiting
+Thread : T0 yielded back to T7
+Thread : T7 spawned T4
+Thread : T7 spawned T5
+Thread : T7 exiting
+Thread : T8 has returned from scheduling
+Thread : T8 spawned T6
+Thread : T8 spawned T7
+Thread : T8 exiting
+Thread : T8 yielded back to T1
+Thread : T1 spawned T8
+Thread : T1 exiting
+Thread : T2 attempt to yield to T5
+Thread : T5 attempt to yield to T6
+Thread : T6 attempt to yield to T4
+Thread : T4 attempt to yield to T3
+Thread : T3 attempt to yield to T8
+Thread : T8 attempt to yield to T9
+YieldThread: Thread 9 does not exist
+Thread : T8 attempt to yield to T7
+Thread : T7 attempt to yield to T2
+Thread : T7 yielded back to T2
+Thread : T2 exiting
+Thread : T2 yielded back to T5
+Thread : T5 spawned T9
+Thread : T5 spawned T0
+Thread : T5 exiting
+Thread : T5 yielded back to T6
+Thread : T6 exiting
+Thread : T6 yielded back to T4
+Thread : T4 spawned T1
+Thread : T4 exiting
+Thread : T4 yielded back to T3
+Thread : T3 exiting
+Thread : T3 yielded back to T8
+Thread : T8 exiting
+Thread : T8 yielded back to T7
+Thread : T7 exiting
+Thread : T9 attempt to yield to T1
+Thread : T1 attempt to yield to T0
+Thread : T0 attempt to yield to T5
+YieldThread: Thread 5 does not exist
+Thread : T0 attempt to yield to T6
+YieldThread: Thread 6 does not exist
+Thread : T0 attempt to yield to T4
+YieldThread: Thread 4 does not exist
+Thread : T0 attempt to yield to T3
+YieldThread: Thread 3 does not exist
+Thread : T0 attempt to yield to T8
+YieldThread: Thread 8 does not exist
+Thread : T0 attempt to yield to T9
+Thread : T0 yielded back to T9
+Thread : T9 spawned T2
+Thread : T9 spawned T3
+Thread : T9 exiting
+Thread : T9 yielded back to T1
+Thread : T1 spawned T4
+Thread : T1 exiting
+Thread : T1 yielded back to T0
+Thread : T0 spawned T5
+Thread : T0 exiting
+Thread : T2 attempt to yield to T7
+YieldThread: Thread 7 does not exist
+Thread : T2 scheduling
+Thread : T3 attempt to yield to T0
+YieldThread: Thread 0 does not exist
+Thread : T3 scheduling
+Thread : T4 attempt to yield to T9
+YieldThread: Thread 9 does not exist
+Thread : T4 attempt to yield to T6
+YieldThread: Thread 6 does not exist
+Thread : T4 attempt to yield to T2
+Thread : T2 has returned from scheduling
+Thread : T2 exiting
+Thread : T5 scheduling
+Thread : T3 has returned from scheduling
+Thread : T3 spawned T6
+Thread : T3 spawned T7
+Thread : T3 exiting
+Thread : T3 yielded back to T4
+Thread : T4 spawned T8
+Thread : T4 exiting
+Thread : T5 has returned from scheduling
+Thread : T5 exiting
+Thread : T6 attempt to yield to T0
+YieldThread: Thread 0 does not exist
+Thread : T6 attempt to yield to T8
+Thread : T8 attempt to yield to T6
+Thread : T8 yielded back to T6
+Thread : T6 spawned T9
+Thread : T6 exiting
+Thread : T7 attempt to yield to T2
+YieldThread: Thread 2 does not exist
+Thread : T7 attempt to yield to T1
+YieldThread: Thread 1 does not exist
+Thread : T7 attempt to yield to T3
+YieldThread: Thread 3 does not exist
+Thread : T7 scheduling
+Thread : T7 yielded back to T8
+Thread : T8 spawned T0
+Thread : T8 spawned T1
+Thread : T8 exiting
+Thread : T9 attempt to yield to T4
+YieldThread: Thread 4 does not exist
+Thread : T9 attempt to yield to T5
+YieldThread: Thread 5 does not exist
+Thread : T9 attempt to yield to T0
+Thread : T0 attempt to yield to T3
+YieldThread: Thread 3 does not exist
+Thread : T0 attempt to yield to T7
+Thread : T7 has returned from scheduling
+Thread : T7 spawned T2
+Thread : T7 spawned T3
+Thread : T7 exiting
+Thread : T1 attempt to yield to T9
+Thread : T1 yielded back to T9
+Thread : T9 spawned T4
+Thread : T9 spawned T5
+Thread : T9 exiting
+Thread : T9 yielded back to T0
+Thread : T0 spawned T6
+Thread : T0 exiting
+Thread : T2 attempt to yield to T8
+YieldThread: Thread 8 does not exist
+Thread : T2 attempt to yield to T6
+Thread : T6 attempt to yield to T2
+Thread : T6 yielded back to T2
+Thread : T2 spawned T7
+Thread : T2 exiting
+Thread : T3 attempt to yield to T1
+Thread : T3 yielded back to T1
+Thread : T1 spawned T8
+Thread : T1 spawned T9
+Thread : T1 exiting
+Thread : T4 scheduling
+Thread : T5 attempt to yield to T8
+Thread : T8 attempt to yield to T9
+Thread : T9 attempt to yield to T3
+Thread : T9 yielded back to T3
+Thread : T3 spawned T0
+Thread : T3 spawned T1
+Thread : T3 exiting
+Thread : T3 yielded back to T6
+Thread : T6 exiting
+Thread : T7 attempt to yield to T6
+YieldThread: Thread 6 does not exist
+Thread : T7 attempt to yield to T1
+Thread : T1 attempt to yield to T2
+YieldThread: Thread 2 does not exist
+Thread : T1 attempt to yield to T0
+Thread : T0 attempt to yield to T7
+Thread : T0 yielded back to T7
+Thread : T7 exiting
+Thread : T4 has returned from scheduling
+Thread : T4 spawned T2
+Thread : T4 exiting
+Thread : T4 yielded back to T5
+Thread : T5 spawned T3
+Thread : T5 exiting
+Thread : T5 yielded back to T8
+Thread : T8 spawned T4
+Thread : T8 spawned T5
+Thread : T8 exiting
+Thread : T8 yielded back to T9
+Thread : T9 spawned T6
+Thread : T9 exiting
+Thread : T9 yielded back to T1
+Thread : T1 spawned T7
+Thread : T1 exiting
+Thread : T1 yielded back to T0
+Thread : T0 spawned T8
+Thread : T0 exiting
+Thread : T2 attempt to yield to T5
+Thread2 : T5 scheduling
+Thread2 : T3 scheduling
+Thread2 : T4 scheduling
+Thread2 : T6 scheduling
+Thread2 : T7 scheduling
+Thread2 : T8 scheduling
+Thread : T8 yielded back to T2
+Thread : T2 exiting
+Thread2 : T5 has returned from scheduling
+Thread2 : T5 spawned T9
+Thread2 : T5 spawned T0
+Thread2 : T5 exiting
+Thread2 : T3 has returned from scheduling
+Thread2 : T3 spawned T1
+Thread2 : T3 exiting
+Thread2 : T4 has returned from scheduling
+Thread2 : T4 spawned T2
+Thread2 : T4 spawned T3
+Thread2 : T4 exiting
+Thread2 : T6 has returned from scheduling
+Thread2 : T6 spawned T4
+Thread2 : T6 spawned T5
+Thread2 : T6 exiting
+Thread2 : T7 has returned from scheduling
+Thread2 : T7 spawned T6
+Thread2 : T7 exiting
+Thread2 : T8 has returned from scheduling
+Thread2 : T8 spawned T7
+Thread2 : T8 exiting
+Thread2 : T9 scheduling
+Thread : T0 attempt to yield to T3
+Thread : T3 attempt to yield to T2
+Thread2 : T2 scheduling
+Thread2 : T1 scheduling
+Thread2 : T4 scheduling
+Thread2 : T5 scheduling
+Thread : T6 attempt to yield to T7
+Thread2 : T7 scheduling
+Thread2 : T9 has returned from scheduling
+Thread2 : T9 spawned T8
+Thread2 : T9 exiting
+Thread : T9 yielded back to T0
+Thread : T0 exiting
+Thread : T0 yielded back to T3
+Thread : T3 exiting
+Thread2 : T2 has returned from scheduling
+Thread2 : T2 spawned T9
+Thread2 : T2 spawned T0
+Thread2 : T2 exiting
+Thread2 : T1 has returned from scheduling
+Thread2 : T1 spawned T2
+Thread2 : T1 spawned T3
+Thread2 : T1 exiting
+Thread2 : T4 has returned from scheduling
+Thread2 : T4 spawned T1
+Thread2 : T4 exiting
+Thread2 : T5 has returned from scheduling
+Thread2 : T5 spawned T4
+Thread2 : T5 exiting
+Thread : T5 yielded back to T6
+Thread : T6 spawned T5
+Thread : T6 exiting
+Thread2 : T7 has returned from scheduling
+Thread2 : T7 spawned T6
+Thread2 : T7 exiting
+Thread2 : T8 scheduling
+Thread : T9 attempt to yield to T4
+Thread2 : T4 scheduling
+Thread2 : T0 scheduling
+Thread2 : T2 scheduling
+Thread : T3 attempt to yield to T0
+Thread2 : T0 has returned from scheduling
+Thread2 : T0 spawned T7
+Thread2 : T0 exiting
+Thread2 : T1 scheduling
+Thread2 : T5 scheduling
+Thread2 : T6 scheduling
+Thread2 : T8 has returned from scheduling
+Thread2 : T8 spawned T0
+Thread2 : T8 exiting
+Thread : T8 yielded back to T9
+Thread : T9 exiting
+Thread2 : T4 has returned from scheduling
+Thread2 : T4 spawned T8
+Thread2 : T4 spawned T9
+Thread2 : T4 exiting
+Thread2 : T2 has returned from scheduling
+Thread2 : T2 spawned T4
+Thread2 : T2 exiting
+Thread : T2 yielded back to T3
+Thread : T3 spawned T2
+Thread : T3 exiting
+Thread2 : T7 scheduling
+Thread2 : T1 has returned from scheduling
+Thread2 : T1 spawned T3
+Thread2 : T1 exiting
+Thread2 : T5 has returned from scheduling
+Thread2 : T5 spawned T1
+Thread2 : T5 exiting
+Thread2 : T6 has returned from scheduling
+Thread2 : T6 spawned T5
+Thread2 : T6 exiting
+Thread : T0 attempt to yield to T2
+Thread2 : T2 scheduling
+Thread2 : T8 scheduling
+Thread2 : T9 scheduling
+Thread : T4 attempt to yield to T5
+Thread2 : T5 scheduling
+Thread2 : T7 has returned from scheduling
+Thread2 : T7 spawned T6
+Thread2 : T7 exiting
+Thread2 : T3 scheduling
+Thread : T1 attempt to yield to T7
+YieldThread: Thread 7 does not exist
+Thread : T1 attempt to yield to T6
+Thread2 : T6 scheduling
+Thread : T6 yielded back to T0
+Thread : T0 exiting
+Thread2 : T2 has returned from scheduling
+Thread2 : T2 spawned T7
+Thread2 : T2 spawned T0
+Thread2 : T2 exiting
+Thread2 : T8 has returned from scheduling
+Thread2 : T8 spawned T2
+Thread2 : T8 exiting
+Thread2 : T9 has returned from scheduling
+Thread2 : T9 spawned T8
+Thread2 : T9 exiting
+Thread : T9 yielded back to T4
+Thread : T4 spawned T9
+Thread : T4 exiting
+Thread2 : T5 has returned from scheduling
+Thread2 : T5 spawned T4
+Thread2 : T5 exiting
+Thread2 : T3 has returned from scheduling
+Thread2 : T3 spawned T5
+Thread2 : T3 exiting
+Thread : T3 yielded back to T1
+Thread : T1 spawned T3
+Thread : T1 exiting
+Thread2 : T6 has returned from scheduling
+Thread2 : T6 spawned T1
+Thread2 : T6 exiting
+Thread : T7 attempt to yield to T8
+Thread : T8 attempt to yield to T1
+Thread2 : T1 scheduling
+Thread2 : T0 scheduling
+Thread2 : T2 scheduling
+Thread2 : T9 scheduling
+Thread2 : T4 scheduling
+Thread : T5 attempt to yield to T0
+Thread2 : T0 has returned from scheduling
+Thread2 : T0 spawned T6
+Thread2 : T0 exiting
+Thread2 : T3 attempting to yield to T5
+Thread : T3 yielded back to T5
+Thread : T5 spawned T0
+Thread : T5 exiting
+Thread : T5 yielded back to T7
+Thread : T7 spawned T5
+Thread : T7 exiting
+Thread : T7 yielded back to T8
+Thread : T8 spawned T7
+Thread : T8 exiting
+Thread2 : T1 has returned from scheduling
+Thread2 : T1 spawned T8
+Thread2 : T1 exiting
+Thread2 : T2 has returned from scheduling
+Thread2 : T2 spawned T1
+Thread2 : T2 exiting
+Thread2 : T9 has returned from scheduling
+Thread2 : T9 exiting
+Thread2 : T4 has returned from scheduling
+Thread2 : T4 exiting
+Thread : T6 attempt to yield to T2
+YieldThread: Thread 2 does not exist
+Thread : T6 attempt to yield to T7
+Thread2 : T7 scheduling
+Thread2 : T7 yielded back to T3
+Thread2 : T3 exiting
+Thread2 : T0 scheduling
+Thread2 : T5 scheduling
+Thread2 : T8 scheduling
+Thread2 : T1 scheduling
+Thread : T1 yielded back to T6
+Thread : T6 exiting
+Thread2 : T7 has returned from scheduling
+Thread2 : T7 exiting
+Thread2 : T0 has returned from scheduling
+Thread2 : T0 exiting
+Thread2 : T5 has returned from scheduling
+Thread2 : T5 exiting
+Thread2 : T8 has returned from scheduling
+Thread2 : T8 exiting
+Thread2 : T1 has returned from scheduling
+Thread2 : T1 exiting
+
+System exiting (normal)

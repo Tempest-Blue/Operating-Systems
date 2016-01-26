@@ -1,0 +1,56 @@
+#!/bin/bash
+
+echo ============
+echo "Running all the diffs. Output will be inside of the output folder!"
+echo ============
+
+mkdir -p output;
+echo
+echo ============
+echo tc2
+echo ============
+echo
+./tc2 0 > output/tc2_mine;
+./tc2 1 > output/tc2_ref;
+diff output/tc2_mine output/tc2_ref;
+echo
+echo ============
+echo tc3
+echo ============
+echo
+./tc3 0 > output/tc3_mine;
+./tc3 1 > output/tc3_ref;
+diff output/tc3_mine output/tc3_ref;
+echo
+echo ============
+echo tc4
+echo ============
+echo
+./tc4 0 > output/tc4_mine;
+./tc4 1 > output/tc4_ref;
+diff output/tc4_mine output/tc4_ref;
+echo
+echo ============
+echo queue
+echo ============
+echo
+./queue 0 > output/queue_mine;
+./queue 1 > output/queue_ref;
+diff output/queue_mine output/queue_ref;
+echo
+echo ============
+echo order
+echo ============
+echo
+./order 0 > output/order_mine;
+./order 1 > output/order_ref;
+diff output/order_mine output/order_ref;
+echo
+echo ============
+echo spawn
+echo ============
+echo
+./spawn 0 > output/spawn_mine;
+./spawn 1 > output/spawn_ref;
+diff output/spawn_mine output/spawn_ref;
+

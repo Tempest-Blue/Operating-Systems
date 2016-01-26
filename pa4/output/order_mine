@@ -1,0 +1,103 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 2.83 [1/25/15-05:03PM] 15395
+
+T1 created
+T2 created
+T3 created
+T4 created
+T5 created
+T6 created
+T7 created
+T8 created
+T9 created
+T0 is giving up CPU
+t = 1, Thread = 1... T1 is giving up CPU
+t = 2, Thread = 2... T2 is giving up CPU
+t = 3, Thread = 3... T3 is giving up CPU
+t = 4, Thread = 4... T4 exiting
+t = 5, Thread = 5... T5 is giving up CPU
+t = 6, Thread = 6... T6 is giving up CPU
+t = 7, Thread = 7... T7 is giving up CPU
+t = 8, Thread = 8... T8 is giving up CPU
+t = 9, Thread = 9... T9 is giving up CPU
+T4 created
+t = 1, Thread = 1... T1 is giving up CPU
+t = 2, Thread = 2... T2 is giving up CPU
+t = 3, Thread = 3... T3 is giving up CPU
+t = 5, Thread = 5... T5 exiting
+t = 6, Thread = 6... T6 is giving up CPU
+t = 7, Thread = 7... T7 is giving up CPU
+t = 8, Thread = 8... T8 is giving up CPU
+t = 9, Thread = 9... T9 is giving up CPU
+t = 4, Thread = 4... T4 is giving up CPU
+t = 1, Thread = 1... T1 is giving up CPU
+t = 2, Thread = 2... T2 is giving up CPU
+t = 3, Thread = 3... T3 exiting
+t = 6, Thread = 6... T6 is giving up CPU
+t = 7, Thread = 7... T7 is giving up CPU
+t = 8, Thread = 8... T8 is giving up CPU
+t = 9, Thread = 9... T9 is giving up CPU
+t = 4, Thread = 4... T4 is giving up CPU
+T5 created
+T3 created
+t = 1, Thread = 1... T1 exiting
+t = 2, Thread = 2... T2 exiting
+t = 6, Thread = 6... T6 exiting
+t = 7, Thread = 7... T7 exiting
+t = 8, Thread = 8... T8 exiting
+t = 9, Thread = 9... T9 exiting
+t = 4, Thread = 4... T4 exiting
+t = 5, Thread = 5... T5 exiting
+t = 3, Thread = 3... T3 exiting
+
+
+
+T4 created
+T5 created
+T6 created
+T7 created
+T8 created
+T9 created
+T1 created
+T2 created
+T3 created
+T0 is giving up CPU
+t = 1, Thread = 4... T4 exiting
+t = 2, Thread = 5... T5 is giving up CPU
+t = 3, Thread = 6... T6 is giving up CPU
+t = 4, Thread = 7... T7 is giving up CPU
+t = 5, Thread = 8... T8 is giving up CPU
+t = 6, Thread = 9... T9 is giving up CPU
+t = 7, Thread = 1... T1 is giving up CPU
+t = 8, Thread = 2... T2 is giving up CPU
+t = 9, Thread = 3... T3 is giving up CPU
+T4 created
+t = 2, Thread = 5... T5 is giving up CPU
+t = 3, Thread = 6... T6 is giving up CPU
+t = 4, Thread = 7... T7 is giving up CPU
+t = 5, Thread = 8... T8 is giving up CPU
+t = 6, Thread = 9... T9 is giving up CPU
+t = 7, Thread = 1... T1 is giving up CPU
+t = 8, Thread = 2... T2 is giving up CPU
+t = 9, Thread = 3... T3 exiting
+t = 1, Thread = 4... T4 is giving up CPU
+t = 2, Thread = 5... T5 exiting
+t = 3, Thread = 6... T6 is giving up CPU
+t = 4, Thread = 7... T7 is giving up CPU
+t = 5, Thread = 8... T8 is giving up CPU
+t = 6, Thread = 9... T9 is giving up CPU
+t = 7, Thread = 1... T1 is giving up CPU
+t = 8, Thread = 2... T2 is giving up CPU
+t = 1, Thread = 4... T4 is giving up CPU
+T5 created
+T3 created
+t = 3, Thread = 6... T6 exiting
+t = 4, Thread = 7... T7 exiting
+t = 5, Thread = 8... T8 exiting
+t = 6, Thread = 9... T9 exiting
+t = 7, Thread = 1... T1 exiting
+t = 8, Thread = 2... T2 exiting
+t = 1, Thread = 4... T4 exiting
+t = 2, Thread = 5... T5 exiting
+t = 9, Thread = 3... T3 exiting
+
+System exiting (normal)

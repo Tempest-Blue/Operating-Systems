@@ -1,0 +1,43 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 2.83 [1/25/15-05:03PM] 15423
+
+T0 spawning T1
+T0 spawning T2
+T0 spawning T3
+T0 spawning T4
+T0 spawning T5
+T0 spawning T6
+T0 spawning T7
+T0 spawning T8
+T0 spawning T9
+T0 spawning T-1
+T1 stack seems correct
+T2 stack seems correct
+T3 stack seems correct
+T4 stack seems correct
+T5 stack seems correct
+T6 stack seems correct
+T7 stack seems correct
+T8 stack seems correct
+T9 stack seems correct
+
+
+T0 respawning T1
+T0 respawning T2
+T0 respawning T3
+T0 respawning T4
+T0 respawning T5
+T0 respawning T6
+T0 respawning T7
+T0 respawning T8
+T0 respawning T9
+T1 stack seems correct
+T2 stack seems correct
+T3 stack seems correct
+T4 stack seems correct
+T5 stack seems correct
+T6 stack seems correct
+T7 stack seems correct
+T8 stack seems correct
+T9 stack seems correct
+
+System exiting (normal)

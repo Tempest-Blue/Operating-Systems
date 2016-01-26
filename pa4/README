@@ -1,0 +1,44 @@
+I have created a "test suite" for PA4 under General Resources in https://piazza.com/ucsd/winter2015/cse120/resources. 
+
+How to set it up
+
+Unzip the file and copy everything into your pa4 folder.
+
+How to run it
+
+Run "make" to compile all the test cases.
+
+If you want to run each test case individually, run it like so:
+
+./tc1 0
+where '0' is to run the test case with YOUR kernel, and '1' is to run the test case with the reference kernel.
+
+You should use the Unix 'diff' utility to check your output, for example, 
+
+./tc1 0 > TC1
+diff TC1 <(./tc1 1)
+
+I have also included a bash script called 'run' to run and diff all the test cases (and output them into a folder called 'output'), which you can use by running
+
+./run
+
+Test case requirements
+
+tc1.c - A simple test case which should check if your queue for MyYieldThread is implemented correctly.
+tc2.c - This is an excellent test case created by Benjamin Lei
+Here is an advanced test case which essentially tests that you are yielding to threads in the correct order. Here's the situation: You surrounded by 10 zombies. If you shoot the zombies one at a time from left to right/right to left, your brain will be eaten from behind. Therefore you have to shoot every third zombie so you can reduce the chances of this happening. It is your job to have implemented your kernel correctly so that you will be able to yield to the correct zombie, and that every zombie should appear in their correct position.
+tc3.c - For this program to work, you should have ALL the kernel functions completed.
+tc4.c - For this program to work, you should have ALL the kernel functions completed.
+spawn.c - For this program to work, you should have the following kernel functions completed
+MyInitThreads ()
+MySpawnThread ()
+MySchedThread () (and potentially MyYieldThread if this function relies on it)
+MyExitThread ()
+MyGetThread()
+order.c - For this program to work, you should have the following kernel functions completed:
+MyInitThreads ()
+MySpawnThread ()
+MySchedThread () (and potentially MyYieldThread if this function relies on it)
+MyExitThread ()
+MyGetThread()
+queue.c - For this program to work, you should have ALL the kernel functions completed. First I'll state that I am personally not sure if this test case is good at testing what I hope it tests. Overall though, I think it should achieve the goal.
